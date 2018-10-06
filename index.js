@@ -4,7 +4,7 @@ function mapping([key, value])
 }
 
 
-module.exports = function(searchParams = window.location.searchParams)
+module.exports = function(searchParams = window.location.search)
 {
   if(!(searchParams instanceof URLSearchParams))
     searchParams = new URLSearchParams(searchParams)
