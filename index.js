@@ -1,3 +1,6 @@
+/**
+ * Generates a CLI argument from an `URLSearchParams` entry
+ */
 function mapping([key, value])
 {
   return `--${key}=${value}`
